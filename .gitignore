@@ -1,0 +1,48 @@
+# ── 로그인 정보가 든 크롬 프로필 (쿠키·세션) — 절대 올리지 않는다
+chrome-profile/
+
+# ── 비밀번호·API 키·토큰·PC별 설정
+.env
+.env.*
+*.key
+*.pem
+*.pfx
+*.p12
+*.der
+secrets*
+credentials*
+token*
+.claude/settings.local.json
+
+# ── 조회 결과 = 거래처 실자료 (이 PC 안에만 둔다)
+*.csv
+*.txt
+*.xlsx
+*.xls
+*.pdf
+조회결과_*
+합계표_*
+총합계_*
+신용카드매출_*
+*거래처*
+
+# ── 로그
+*.log
+logs/
+
+# ── 큰 폴더·자동 생성물
+node_modules/
+__pycache__/
+*.pyc
+.venv/
+venv/
+
+# ── OS·편집기
+Thumbs.db
+desktop.ini
+.DS_Store
+.vscode/
+.idea/
+
+# vat_output.py result reports
+logs/
